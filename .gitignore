@@ -1,0 +1,7 @@
+.idea/
+.DS_Store
+*.iml
+config/
+music/
+_README.md
+testBin/**
