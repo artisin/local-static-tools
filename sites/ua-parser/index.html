@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>UAParser</title>
+</head>
+<style type="text/css">
+body {
+  background: #3B3E3F;
+  font-family: monospace;
+  color: #28b3c8;
+  padding: 6%;
+}
+
+</style>
+<body>
+
+  <h1>
+    <a href="https://github.com/faisalman/ua-parser-js">UAParser.js</a>
+  </h1>
+  <div>
+      <pre id="result">
+
+      </pre>
+  </div>
+
+<!-- inject:js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/UAParser.js/0.7.20/ua-parser.js"></script>
+<!-- endinject -->
+
+<script>
+  setTimeout(() => {
+    var parser = new UAParser();
+    document.getElementById('result').innerHTML = JSON.stringify(parser.getResult(), null, 2);
+  }, 200)
+</script>
+
+</body>
+
+</html>
