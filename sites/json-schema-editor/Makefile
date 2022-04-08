@@ -22,9 +22,7 @@ build: ## Builds Server
 	rm -rf dist
 	rm -rf prd
 	pnpm run build
-	mkdir -p ./prd/src
-	cp ./dist/main.js ./prd/src/index.js
-	cp ./dist/main.css ./prd/src/index.css
+	pnpm run demo
 
 
 help:
