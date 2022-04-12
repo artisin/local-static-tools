@@ -1,0 +1,5 @@
+/*
+/dist/*
+!/dist/index.{d.ts,js}
+!/dist/index.js.map
+!/bin/svgr

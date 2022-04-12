@@ -1,0 +1,9 @@
+__fixtures_build__/
+__fixtures__/
+CHANGELOG.md
+package.json
+lerna.json
+dist/
+.next/
+/website/.cache/
+/website/public/

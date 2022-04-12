@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://react-svgr.com/sitemap/sitemap-index.xml
+Host: https://react-svgr.com
