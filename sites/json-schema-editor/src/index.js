@@ -27,23 +27,6 @@ render(
     <a target="_blank" href="https://github.com/YMFE/json-schema-editor-visual">
       <h1>JSON-Schema-Editor</h1>
     </a>
-    <p style={{ fontSize: '16px' }}>
-      A json-schema editor of high efficient and easy-to-use, base on React.{' '}
-      <a target="_blank" href="https://github.com/YMFE/json-schema-editor-visual">
-        Github
-      </a>
-    </p>
-    <br />
-    <h3>
-      The tool has been used for open source api management platforms：{' '}
-      <a target="_blank" href="https://github.com/ymfe/yapi">
-        YApi
-      </a>
-    </h3>
-
-    <br />
-    <h2>Example:</h2>
-    <hr />
 
     <JEditor1
       showEditor={true}

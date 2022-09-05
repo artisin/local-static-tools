@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "dependencies": {
+    "@xstyled/styled-components": "^3.5.1",
+    "brace": "^0.11.1",
+    "final-form": "^4.20.6",
+    "gatsby": "^4.6.0",
+    "gatsby-plugin-compile-es6-packages": "^2.1.1",
+    "gatsby-plugin-google-analytics": "^4.6.0",
+    "gatsby-plugin-styled-components": "^5.11.0",
+    "history": "^5.2.0",
+    "isomorphic-fetch": "^3.0.0",
+    "react": "^17.0.2",
+    "react-ace": "^9.5.0",
+    "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.7",
+    "react-icons": "^4.3.1",
+    "smooth-doc": "^9.0.0"
+  },
+  "scripts": {
+    "build": "gatsby build && cp _redirects public/",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "devDependencies": {
+    "eslint-config-react-app": "^7.0.0"
+  }
+}
